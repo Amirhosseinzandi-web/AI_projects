@@ -58,3 +58,7 @@
 
 # Add h5 models for Git LFS
 *.h5 filter=lfs diff=lfs merge=lfs -text
+
+
+#CSV Files
+*.csv filter=lfs diff=lfs merge=lfs -text
